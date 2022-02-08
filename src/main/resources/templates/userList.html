@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>User</th>
+        <th>Role</th>
+    </tr>
+    <tr th:each="user : ${users}">
+        <td th:text="${user.getId()}">No id</td>
+        <td th:text="${user.getUsername()}">No Message</td>
+        <td th:text="${user.getRoles()}">No tags</td>
+        <td><a th:href="@{/user/{id}(id=${user.getId()})}"> Edit </a></td>
+    </tr>
+</table>
+<div>
+    <a th:href="@{/index}">Return to Index</a></div>
+</body>
+</html>

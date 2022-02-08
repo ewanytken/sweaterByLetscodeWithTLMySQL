@@ -1,0 +1,5 @@
+2022-02-07 22:08:30.466  INFO 7912 --- [restartedMain] c.e.sweater.sweater.SweaterApplication   : Starting SweaterApplication on Evarista-VAIO with PID 7912 (C:\Users\Evarista\Desktop\NewWorkSpace\sweater\target\classes started by Evarista in C:\Users\Evarista\Desktop\NewWorkSpace\sweater)
+2022-02-07 22:08:30.513 DEBUG 7912 --- [restartedMain] c.e.sweater.sweater.SweaterApplication   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2022-02-07 22:08:30.514  INFO 7912 --- [restartedMain] c.e.sweater.sweater.SweaterApplication   : No active profile set, falling back to default profiles: default
+2022-02-07 22:08:44.415  WARN 7912 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 22:08:50.234  INFO 7912 --- [restartedMain] c.e.sweater.sweater.SweaterApplication   : Started SweaterApplication in 21.71 seconds (JVM running for 26.151)
