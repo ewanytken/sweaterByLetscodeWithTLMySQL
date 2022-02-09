@@ -1,3 +1,3 @@
 # sweaterByLetscodeWithTLMySQL
 
-# studing spring MVC ThemeLeaf MySQL
+# studing spring MVC ThymeLeaf MySQL
